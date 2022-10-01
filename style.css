@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(123, 79, 79);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    margin:5px ;
+    
+}
+h1{
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 
+   'Arial Narrow Bold', sans-serif;
+   letter-spacing: 4px;
+   color: white;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, .5) ;
+   white-space: nowrap;
+   
+}
+
+p{
+    color: green;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+     text-shadow: 0px 2px 4px rgba(0, 0, 0, .4);
+     padding: 5px;
+     border-radius: 5px;
+     margin: 0px 50px;
+
+}
+.btn{  
+    
+    padding: 20px 0px;
+    background-color: white;
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    background: url("images/tom.jpg");
+    background-size: cover;
+    color: rgb(225, 3, 29);
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    text-transform: capitalize;
+    box-sizing: border-box;
+
+
+}
+.btn:hover{
+    color: pink;
+}
+.btn:active{
+    background-size: 110%;
+}
